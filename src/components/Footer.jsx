@@ -102,7 +102,7 @@ export default function Footer() {
             >
               Terms & Conditions
             </span>
-            <a href="https://unitradin.com" target="_blank" rel="noopener noreferrer" style={{ fontSize: 13, color: C.primary, textDecoration: "none" }}>unitradin.com</a>
+            <a href="https://unitradein.com" target="_blank" rel="noopener noreferrer" style={{ fontSize: 13, color: C.primary, textDecoration: "none" }}>unitradein.com</a>
           </div>
         </div>
       </div>
