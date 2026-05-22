@@ -11,6 +11,7 @@ import BlogPost from "./pages/BlogPost";
 import Contact from "./pages/Contact";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsConditions from "./pages/TermsConditions";
+import WhatsAppButton from "./components/WhatsAppButton";
 
 export default function App() {
   return (
@@ -33,6 +34,7 @@ export default function App() {
           </Routes>
         </main>
         <Footer />
+        <WhatsAppButton />
       </div>
     </BrowserRouter>
   );
