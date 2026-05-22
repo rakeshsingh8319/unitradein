@@ -318,8 +318,8 @@ export default function Home() {
           </p>
           <div className="cta-btns" style={{ display: "flex", gap: 16, justifyContent: "center", flexWrap: "wrap", position: "relative" }}>
             <button className="btn btn-white" onClick={() => navigate("/contact")}>Get a Free Consultation</button>
-            <a href="mailto:info@unitradin.com" style={{ background: "transparent", color: "#fff", border: "2px solid rgba(255,255,255,.55)", padding: "14px 36px", borderRadius: 50, fontWeight: 600, fontSize: 15, fontFamily: "'DM Sans',sans-serif", textDecoration: "none", transition: "border-color .2s" }}>
-              info@unitradin.com
+            <a href="mailto:info@unitradein.com" style={{ background: "transparent", color: "#fff", border: "2px solid rgba(255,255,255,.55)", padding: "14px 36px", borderRadius: 50, fontWeight: 600, fontSize: 15, fontFamily: "'DM Sans',sans-serif", textDecoration: "none", transition: "border-color .2s" }}>
+              info@unitradein.com
             </a>
           </div>
         </Fade>
