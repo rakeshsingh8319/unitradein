@@ -100,7 +100,8 @@ export default function Contact() {
                     <div style={{ width: 44, height: 44, borderRadius: "50%", background: C.primary + "15", color: C.primary, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}><IconMail /></div>
                     <div>
                       <div style={{ fontSize: 13, color: C.muted, textTransform: "uppercase", fontWeight: 600, letterSpacing: 0.5 }}>Email Us</div>
-                      <a href="mailto:info@unitradein.com" style={{ fontSize: 16, color: C.text, textDecoration: "none", fontWeight: 600, transition: "color 0.2s" }} onMouseEnter={(e) => { e.target.style.color = C.primary }} onMouseLeave={(e) => { e.target.style.color = C.text }}>info@unitradein.com</a>
+                      <a href="mailto:info@unitradein.com" style={{ fontSize: 16, color: C.text, textDecoration: "none", fontWeight: 600, transition: "color 0.2s", display: "block", marginBottom: 4 }} onMouseEnter={(e) => { e.target.style.color = C.primary }} onMouseLeave={(e) => { e.target.style.color = C.text }}>info@unitradein.com</a>
+                      <a href="mailto:rakeshsingh8319@gmail.com" style={{ fontSize: 16, color: C.text, textDecoration: "none", fontWeight: 600, transition: "color 0.2s", display: "block" }} onMouseEnter={(e) => { e.target.style.color = C.primary }} onMouseLeave={(e) => { e.target.style.color = C.text }}>rakeshsingh8319@gmail.com</a>
                     </div>
                   </div>
 
